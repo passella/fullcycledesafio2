@@ -12,8 +12,6 @@ services:
     command: node index.js
     networks:
       - node-network
-    ports:
-      - "3000:3000"
     tty: true
     depends_on:
       - db
@@ -41,7 +39,7 @@ services:
     networks:
       - node-network
     ports:
-      - "8080:80"
+      - "8081:80"
 
 networks:
   node-network:
