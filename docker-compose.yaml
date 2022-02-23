@@ -41,7 +41,7 @@ services:
     networks:
       - node-network
     ports:
-      - "8080:80"
+      - "8000:80"
 
 networks:
   node-network:
